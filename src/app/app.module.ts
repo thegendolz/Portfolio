@@ -13,6 +13,8 @@ import { ContactComponent } from './components/contact/contact.component'
 import { AboutmeComponent } from './components/aboutme/aboutme.component'
 import { ExperienceComponent } from './components/experience/experience.component'
 
+import { CloseMenuDirective } from './directives/menuClose';
+
 import { routing } from './app.routing';
 
 @NgModule({
@@ -25,7 +27,8 @@ import { routing } from './app.routing';
     ProductComponent,
     AboutmeComponent,
     ContactComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    CloseMenuDirective
   ],
   imports: [
     BrowserModule,
